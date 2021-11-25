@@ -1,0 +1,33 @@
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1600px;
+}
+h1 {
+	font-size: 4.8rem;
+	text-transform: uppercase;
+	text-align: center;
+	color: $text-dark;
+	letter-spacing: 2px;
+}
+.section {
+	padding: 4em 2em;
+	background-color: $text-white;
+}
+.margin-section {
+	margin: 4em 0;
+}
+.shadow {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	z-index: -50;
+}
+
+.underline {
+	margin: 0 auto;
+	width: 300px;
+	height: 5px;
+	background-color: $addition-color;
+}
